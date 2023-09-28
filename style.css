@@ -1,0 +1,23 @@
+.head1{
+    display:flex;
+    justify-content: center;
+    background-color: darkslategrey;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.body1
+{
+    background-color: bisque;
+}
+.hero
+{
+   size: 15px;
+   padding-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+.button1
+{
+  padding-left: 200px;
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<style>
+   .head1{
+    display:flex;
+    size: 30px;
+    justify-content: center;
+    background-color: violet;
+    border-radius: 5px;
+}
+.body1
+{
+    background-color:#FFF0F5;
+}
+textarea{
+   resize: none;
+}
+.hero
+{
+   size: 15px;
+   padding-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+.button1
+{
+  padding-left: 600px;
+  padding-top: 20px;
+}
+.submitbut
+{
+   border-radius: 2rem;
+   font-size: 20px;
+   background-color: #F5F5F5;
+}
+.submitbut:hover
+{
+   background-color:grey;
+}
+</style>
+    <head>
+     <title>App</title>
+    </head>
+    <body class="body1">
+     <div class="head1">
+        <h1>TEXT SUMMARIZATION </h1>
+     </div>
+     <form action="/summary" method="POST">
+     <div class="hero">
+        <textarea name="rawtext" rows="20" cols="100"></textarea>
+     </div>
+     <div class="button1">
+        <input class="submitbut" type="submit" name="submit">  
+     </div>     
+    </form></body>
+</html>
